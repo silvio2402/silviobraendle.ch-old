@@ -22,6 +22,9 @@ github_username: silvio2402
 minimal_mistakes_skin: default
 search: true
 
+baseurl: /
+url: https://silviobraendle.ch
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes

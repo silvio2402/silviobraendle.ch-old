@@ -1,27 +1,29 @@
-# Minimal Mistakes remote theme starter
+# Silvio Brändle's personal web site
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[![Deploy Jekyll site to Pages](https://github.com/silvio2402/silviobraendle.ch/actions/workflows/pages.yml/badge.svg)](https://github.com/silvio2402/silviobraendle.ch/actions/workflows/pages.yml)
 
-Contains basic configuration to get you a site with:
+This website is build with [Jekyll](https://jekyllrb.com/) with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Development
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+1. Clone this repository using the following command:
 
----
+   ```bash
+   git clone https://github.com/silvio2402/silviobraendle.ch.git
+   ```
 
-## Troubleshooting
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+   ```bash
+   bundle
+   ```
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+3. Build the site and make it available on a local server:
+
+   ```bash
+   bundle exec jekyll serve --livereload
+   ```
+
+4. Browse to <http://localhost:4000>
+
+#### Clone this repository:

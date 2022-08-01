@@ -25,5 +25,3 @@ This website is build with [Jekyll](https://jekyllrb.com/) with the [Minimal Mis
    ```
 
 4. Browse to <http://localhost:4000>
-
-#### Clone this repository:

@@ -76,7 +76,7 @@ I'm not sure why it shows packet loss as <code>0</code>. I've also seen packet l
 
 1. Download and install the OVPN App as instructed [here](https://www.ovpn.com/en/guides/windows).
 2. Open the OVPN App.
-3. Choose the "Public IPv4" Addon:
+3. The problem only occurs with the Public IPv4 Addon, so choose "Public IPv4":
    ![Select OVPN Public IPv4 Addon](/assets/images/ovpn-public-ipv4.png)
 4. Click Connect:
    ![Click OVPN Connect](/assets/images/ovpn-connect.png)

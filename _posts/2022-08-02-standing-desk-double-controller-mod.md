@@ -8,6 +8,8 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
+A splitter that connects an interface to two table leg motor controllers.
+
 <style scoped>
 .rowcontainer {
   display: flex;
@@ -38,8 +40,6 @@ img {
   object-fit: contain;
 }
 </style>
-
-A splitter that connects an interface to two table leg motor controllers.
 
 ## Goal
 

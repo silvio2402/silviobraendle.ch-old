@@ -4,7 +4,7 @@ categories:
   - Networking
 tags:
 header:
-  overlay_image: /assets/images/console-ovpn-disconnected.png
+  overlay_image: /assets/images/how-to-reproduce-ovpn-problem/console-ovpn-disconnected.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
@@ -66,10 +66,10 @@ The output format of dpinger is:<br>
 <code>latency_avg</code> <code>latency_stddev</code> <code>loss_pct</code>
 
 As long as the internet is connected, it should look something like this:
-![dpinger Console Window Connected](/assets/images/dpinger-console-window-connected.png)
+![dpinger Console Window Connected](/assets/images/how-to-reproduce-ovpn-problem/dpinger-console-window-connected.png)
 
 When the internet suddenly disconnects, it will look like this:
-![dpinger Console Window Disconnected](/assets/images/dpinger-console-window-disconnected.png)
+![dpinger Console Window Disconnected](/assets/images/how-to-reproduce-ovpn-problem/dpinger-console-window-disconnected.png)
 I'm not sure why it shows packet loss as <code>0</code>. I've also seen packet loss at <code>100</code> once, but since no packets go through, the latencies can't be calculated and thus it shows the latencies as <code>0</code>.
 
 ## Measuring the OVPN Static IPv4 Problem
@@ -77,12 +77,12 @@ I'm not sure why it shows packet loss as <code>0</code>. I've also seen packet l
 1. Download and install the OVPN App as instructed [here](https://www.ovpn.com/en/guides/windows).
 2. Open the OVPN App.
 3. The problem only occurs with the Public IPv4 Addon, so choose "Public IPv4":
-   ![Select OVPN Public IPv4 Addon](/assets/images/ovpn-public-ipv4.png)
+   ![Select OVPN Public IPv4 Addon](/assets/images/how-to-reproduce-ovpn-problem/ovpn-public-ipv4.png)
 4. Click Connect:
-   ![Click OVPN Connect](/assets/images/ovpn-connect.png)
+   ![Click OVPN Connect](/assets/images/how-to-reproduce-ovpn-problem/ovpn-connect.png)
 5. Run dpinger:
    ```bash
    sudo ./dpinger -f -t 2s 1.1.1.1
    ```
 6. Wait at least 10min for the VPN to disconnect and watch the output. When a disconnection occurs, it will look like this:
-   ![Click OVPN Connect](/assets/images/console-ovpn-disconnected.png)
+   ![Click OVPN Connect](/assets/images/how-to-reproduce-ovpn-problem/console-ovpn-disconnected.png)

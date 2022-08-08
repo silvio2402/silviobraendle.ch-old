@@ -10,37 +10,6 @@ header:
 
 A splitter that connects an interface to two table leg motor controllers.
 
-<style scoped>
-.rowcontainer {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: stretch;
-  gap: 0.5em;
-  margin-bottom: 26px;
-}
-.rowcontainerstart {
-  justify-content: flex-start;
-}
-.rowcontainer3x > * {
-  max-width: calc(100% / 3);
-}
-.rowcontainer2x > * {
-  max-width: calc(100% / 2);
-}
-@media (max-width: 500px) {
-  .rowcontainer {
-    flex-direction: column;
-  }
-  .rowcontainer > * {
-    max-width: initial;
-  }
-}
-img {
-  object-fit: contain;
-}
-</style>
-
 ## Goal
 
 The goal of this project is to build and program a device to make two height adjustable desks move simultaneously with one interface. The two electric frames have to always be at the same height. I'm doing this project for my brother because he plans to weld two of those desk frames together for extra stability and lifting capacity.

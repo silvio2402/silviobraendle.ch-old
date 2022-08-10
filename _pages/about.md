@@ -29,4 +29,4 @@ Microprocessors, General knowledge, Electronic basics, etc...
 
 | German | Native |
 | English | Very good |
-| French | Working knowledge |
+| French | School level |

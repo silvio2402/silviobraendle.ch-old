@@ -95,11 +95,11 @@ lunr:
 #   links: # An array of links to social media profiles
 
 # Analytics
-# analytics:
-#   provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
-#   google:
-#     tracking_id:
-#     anonymize_ip: # true, false (default)
+analytics:
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-KZC2PCS83T"
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:

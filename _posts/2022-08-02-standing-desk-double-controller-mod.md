@@ -6,6 +6,114 @@ tags:
 header:
   overlay_image: /assets/images/standing-desk-double-controller-mod/overview-all.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+
+gallery_table:
+  - url: /assets/images/standing-desk-double-controller-mod/table-frame-height-adjustable-black-eds08-b.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/table-frame-height-adjustable-black-eds08-b.jpg
+    alt: "Table frame height adjustable black, EDS08-B"
+    title: "Table frame height adjustable black, EDS08-B"
+
+gallery_controller:
+  - url: /assets/images/standing-desk-double-controller-mod/controller-circuit-board-front.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/controller-circuit-board-front.jpg
+    alt: "Controller Circuit Board Front"
+    title: "Controller Circuit Board Front"
+  - url: /assets/images/standing-desk-double-controller-mod/controller-circuit-board-back.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/controller-circuit-board-back.jpg
+    alt: "Controller Circuit Board Back"
+    title: "Controller Circuit Board Back"
+
+gallery_interface:
+  - url: /assets/images/standing-desk-double-controller-mod/interface-circuit-board-front.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/interface-circuit-board-front.jpg
+    alt: "Interface Circuit Board Front"
+    title: "Interface Circuit Board Front"
+  - url: /assets/images/standing-desk-double-controller-mod/interface-circuit-board-back.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/interface-circuit-board-back.jpg
+    alt: "Interface Circuit Board Back"
+    title: "Interface Circuit Board Back"
+
+gallery_legmotor:
+  - url: /assets/images/standing-desk-double-controller-mod/leg-motor.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/leg-motor.jpg
+    alt: "Leg Motor"
+    title: "Leg Motor"
+  - url: /assets/images/standing-desk-double-controller-mod/leg-motor-closeup.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/leg-motor-closeup.jpg
+    alt: "Leg Motor Closeup"
+    title: "Leg Motor Closeup"
+
+gallery_revengineer:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-analyzer.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-analyzer.jpg
+    alt: "Logic Analyzer"
+    title: "Logic Analyzer"
+  - url: /assets/images/standing-desk-double-controller-mod/overview-interface.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/overview-interface.jpg
+    alt: "Interface connected to RJ45"
+    title: "Interface connected to RJ45"
+  - url: /assets/images/standing-desk-double-controller-mod/controller-rj-markings.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/controller-rj-markings.jpg
+    alt: "Markings on Controller RJ"
+    title: "Markings on Controller RJ"
+
+gallery_logicinttxunpressed:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-int-tx-unpressed.png
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-int-tx-unpressed.png
+    alt: "Serial data the interface sends while no buttons are pressed"
+    title: "Serial data the interface sends while no buttons are pressed"
+
+gallery_logicinttxpressedm:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-m.png
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-m.png
+    alt: "Serial data the interface sends while the M button is pressed"
+    title: "Serial data the interface sends while the M button is pressed"
+
+gallery_logicinttxpressedt:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-t.png
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-t.png
+    alt: "Serial data the interface sends while the T button is pressed"
+    title: "Serial data the interface sends while the T button is pressed"
+
+gallery_logicinttxpressedmt:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-mt.png
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-mt.png
+    alt: "Serial data the interface sends while the M and T buttons are pressed"
+    title: "Serial data the interface sends while the M and T buttons are pressed"
+
+gallery_connarduino:
+  - url: /assets/images/standing-desk-double-controller-mod/overview-ctrl-int-arduino-analyzer.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/overview-ctrl-int-arduino-analyzer.jpg
+    alt: "Overview of Controller, Interface, Arduino and Analyzer"
+    title: "Overview of Controller, Interface, Arduino and Analyzer"
+  - url: /assets/images/standing-desk-double-controller-mod/arduino-mega-2650-pro-mini.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/arduino-mega-2650-pro-mini.jpg
+    alt: "Arduino Mega 2650 Pro Mini"
+    title: "Arduino Mega 2650 Pro Mini"
+
+gallery_logicctrltxresponse:
+  - url: /assets/images/standing-desk-double-controller-mod/logic-ctrl-tx-response-e21.png
+    image_path: /assets/images/standing-desk-double-controller-mod/logic-ctrl-tx-response-e21.png
+    alt: "Controller's Response"
+    title: "Controller's Response"
+
+gallery_intdisplaye21:
+  - url: /assets/images/standing-desk-double-controller-mod/interface-display-e21.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/interface-display-e21.jpg
+    alt: "Interface displaying E21"
+    title: "Interface displaying E21"
+
+gallery_intdisplayhi:
+  - url: /assets/images/standing-desk-double-controller-mod/interface-display-hi.jpg
+    image_path: /assets/images/standing-desk-double-controller-mod/interface-display-hi.jpg
+    alt: "Interface displaying HI."
+    title: "Interface displaying HI."
+
+gallery_7segdisplay:
+  - url: /assets/images/standing-desk-double-controller-mod/7-segment-display.png
+    image_path: /assets/images/standing-desk-double-controller-mod/7-segment-display.png
+    alt: "7-Segment Display Segments"
+    title: "7-Segment Display Segments"
 ---
 
 A splitter that connects an interface to two table leg motor controllers.
@@ -16,77 +124,57 @@ The goal of this project is to build and program a device to make two height adj
 
 The electric height-adjustable desk frames are from [Xantron](https://www.xantron.net/), which has it's origin in Switzerland.
 
-![Table frame height adjustable black, EDS08-B](/assets/images/standing-desk-double-controller-mod/table-frame-height-adjustable-black-eds08-b.jpg)
-
-<figcaption><a href="https://www.xantron.net/Table-frame-height-adjustable-black-EDS08-B">Table frame height adjustable black, EDS08-B</a></figcaption>
+{% include gallery id="gallery_table" class="full" caption="Table frame height adjustable black, EDS08-B" %}
 
 ## Teardown
 
 ### Controller
 
-<div class="rowcontainer rowcontainer2x">
-  <img src="/assets/images/standing-desk-double-controller-mod/controller-circuit-board-front.jpg" alt="Controller Circuit Board Front">
-  <img src="/assets/images/standing-desk-double-controller-mod/controller-circuit-board-back.jpg" alt="Controller Circuit Board Back">
-</div>
+{% include gallery id="gallery_controller" class="full" %}
 
 The controller consists a power supply, motor MOSFETs, a microcontroller and more.
 
 ### Interface
 
-<div class="rowcontainer rowcontainer2x">
-  <img src="/assets/images/standing-desk-double-controller-mod/interface-circuit-board-front.jpg" alt="Interface Circuit Board Front">
-  <img src="/assets/images/standing-desk-double-controller-mod/interface-circuit-board-back.jpg" alt="Interface Circuit Board Back">
-</div>
+{% include gallery id="gallery_interface" class="full" %}
 
 There are seven buttons and a 3 digit 7-segment display on the interface.
 
 ### Leg Motor
 
-<div class="rowcontainer rowcontainer2x">
-  <img src="/assets/images/standing-desk-double-controller-mod/leg-motor.jpg" alt="Leg Motor">
-  <img src="/assets/images/standing-desk-double-controller-mod/leg-motor-closeup.jpg" alt="Leg Motor Closeup">
-</div>
+{% include gallery id="gallery_legmotor" class="full" %}
 
 The leg is raised and lowered by the motor through a gearbox. The controller switches the motors and reads their angle through a Hall effect sensor.
 
 ## Reverse-engineering the Protocol
 
-<div class="rowcontainer rowcontainer3x">
-  <div>
-    <img src="/assets/images/standing-desk-double-controller-mod/logic-analyzer.jpg" alt="Logic Analyzer">
-    <figcaption>A logic analyzer is highly recommended because it makes this way easier. I'm using <a href="https://www.aliexpress.com/item/4000190740610.html">this device</a>.</figcaption>
-  </div>
-  <div>
-    <img src="/assets/images/standing-desk-double-controller-mod/overview-interface.jpg" alt="Interface connected to RJ45">
-    <figcaption>I connected the interface to the Arduino and logic analyzer using a RJ45 connector.</figcaption>
-  </div>
-  <div>
-    <img src="/assets/images/standing-desk-double-controller-mod/controller-rj-markings.jpg" alt="Markings on Controller RJ">
-    <figcaption>Thanks for leaving the pinout on the silkscreen ;)</figcaption>
-  </div>
-</div>
+{% include gallery id="gallery_revengineer" class="full" %}
+
+1. A logic analyzer is highly recommended because it makes this way easier. I'm using [this device](https://www.aliexpress.com/item/4000190740610.html).
+2. I connected the interface to the Arduino and logic analyzer using a RJ45 connector.
+3. Thanks for leaving the pinout on the silkscreen. ;) Unfortunately, I couldn't figure out what KEY1 and KEY2 stands for.
 
 ### While no buttons are pressed
 
-![Serial data the interface sends while no buttons are pressed](/assets/images/standing-desk-double-controller-mod/logic-int-tx-unpressed.png)
+{% include gallery id="gallery_logicinttxunpressed" class="full" %}
 
-<p>This is the serial data which the interface sends to the controller about every 12ms. I'm using the <a href="https://www.saleae.com/downloads/">Saleae Logic</a> software to analyze the signal.</p>
+This is the serial data which the interface sends to the controller about every 12ms. I'm using the [Saleae Logic](https://www.saleae.com/downloads/) software to analyze the signal.
 
 ### While the M button is pressed
 
-![Serial data the interface sends while the M button is pressed](/assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-m.png)
+{% include gallery id="gallery_logicinttxpressedm" class="full" %}
 
 <p>This is the data sent while pressing the M button. Notice the third and the fifth byte changed. The value of the third byte (hex <code>0x01</code>) corresponds to binary <code>0000001</code>.</p>
 
 ### While the T button is pressed
 
-![Serial data the interface sends while the T button is pressed](/assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-t.png)
+{% include gallery id="gallery_logicinttxpressedt" class="full" %}
 
 <p>This is the data sent while pressing the T button. Notice the third and the fifth byte changed. The value of the third byte (hex <code>0x10</code>) corresponds to binary <code>0001000</code>.</p>
 
 ### While the M and T buttons are pressed
 
-![Serial data the interface sends while the M and T buttons are pressed](/assets/images/standing-desk-double-controller-mod/logic-int-tx-pressed-mt.png)
+{% include gallery id="gallery_logicinttxpressedmt" class="full" %}
 
 <p>This is the data sent while pressing the M and T buttons. The value of the third byte (hex <code>0x11</code>) corresponds to binary <code>0001001</code>.<br>The fifth byte is most likely a checksum of every byte after the start byte (hex 0xA5).</p>
 
@@ -139,16 +227,10 @@ After a bit of trying, I determined these bitmasks:
 
 ### Connecting to the Arduino
 
-<div class="rowcontainer rowcontainer2x">
-  <div>
-    <img src="/assets/images/standing-desk-double-controller-mod/overview-ctrl-int-arduino-analyzer.jpg" alt="Overview of Controller, Interface, Arduino and Analyzer">
-    <figcaption>The interface and controller are now connected to the Arduino's serial ports.</figcaption>
-  </div>
-  <div>
-    <img src="/assets/images/standing-desk-double-controller-mod/arduino-mega-2650-pro-mini.jpg" alt="Arduino Mega 2650 Pro Mini">
-    <figcaption>I'm using an <a href="https://www.aliexpress.com/item/1005001632923624.html">Arduino Mega 2650 Pro Mini</a>.</figcaption>
-  </div>
-</div>
+{% include gallery id="gallery_connarduino" class="full" %}
+
+1. The interface and controller are now connected to the Arduino's serial ports.
+2. I'm using an [Arduino Mega 2650 Pro Mini](https://www.aliexpress.com/item/1005001632923624.html).
 
 ### Receiving, validating and handling Commands
 
@@ -234,7 +316,7 @@ This function assembles and sends the command of which buttons are pressed to th
 
 #### Controller's Response
 
-![Controller's Response](/assets/images/standing-desk-double-controller-mod/logic-ctrl-tx-response-e21.png)
+{% include gallery id="gallery_logicctrltxresponse" class="full" %}
 
 You can see the command my code sent at the brown line. The orange line is the controller sending a response. I suspect the response contains which segment on the three 7-segment displays should light up.
 
@@ -253,7 +335,7 @@ void sendIntCmd10(uint8_t to)
 
 This function sends a command which the controller normally sends to the interface, which must be after a status update sent by the interface. I'm not certain of the parameters of this command yet so I'm just using the values which I saw in the analyzer.
 
-![Interface displaying E21](/assets/images/standing-desk-double-controller-mod/interface-display-e21.jpg)
+{% include gallery id="gallery_intdisplaye21" class="full" %}
 
 Just as hoped, the interface now displays the same thing displayed at the time I took the data. Hooray!
 
@@ -268,7 +350,7 @@ To figure out what the parameters do, I'm going to try to change them slightly:
 
 Which results to HI.
 
-![Interface displaying HI.](/assets/images/standing-desk-double-controller-mod/interface-display-hi.jpg)
+{% include gallery id="gallery_intdisplayhi" class="full" %}
 
 Nice! The first parameter byte defines the first digit, the second parameter byte the second digit, etc.. The least significant bit in each byte sets the segment A, the bit before that the segment B, etc.. The most significant bit sets the dot. For some reason, the display will not display if all the bits are set.
 
@@ -322,8 +404,8 @@ Here I've made a table of the bits corresponding to their segment:
         <td>DP</td>
     </tr>
   </table>
-  <div style="display: flex; justify-content: center; flex-grow: 1; align-items: center;">
-    <img style="max-height: 300px" src="/assets/images/standing-desk-double-controller-mod/7-segment-display.png" alt="7-Segment Display">
+  <div>
+    {% include gallery id="gallery_7segdisplay" class="nomargin max250w" %}
   </div>
 </div>
 

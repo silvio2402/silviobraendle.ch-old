@@ -224,6 +224,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-mermaid
+
+# Mermaid configuration
+mermaid:
+  src: "/assets/js/mermaid.js"
 
 # mimic GitHub Pages with --safe
 # whitelist:
